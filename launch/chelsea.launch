@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"> </include>
+	<node name="soundplay_nodes" pkg="sound_play" type="soundplay_node.py"/>
+</launch>
